@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+h2{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+#apodForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+   
+}
+
+
+p{
+    font-family: "Inter", sans-serif;
+    width: 960px;
+  
+}
+
+#dateSelect{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    margin-right: 10px;
+
+}
+
+#datePicker{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+
+}
+#submitBtn{
+    width:200px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    background-color: rgb(54, 87, 252);
+    color: azure;
+    margin-left: 10px;
+    border-radius: 2px;
+    border: 2px solid rgb(54, 87, 252);
+}
+
+#apodInfo{
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+  
+}
+
+#apodMedia{
+    width: 100%;
+    text-align: center;
+    margin:20px;
+   
+}
+
+#apodMedia img,
+#apodMedia iframe {
+    max-width: 100%;
+    height: auto; 
+
+}
